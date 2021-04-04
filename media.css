@@ -7,6 +7,10 @@
         margin-bottom: 50px;
     }
     
+    .container {
+       width: 100%;
+    }
+
     .card_best_value .imagesize {
         height: 100%;
     }
