@@ -1,0 +1,66 @@
+@media (max-width: 1000px) {
+    .cards_best_value {
+        flex-direction: column;
+    }
+    .best_value .card_best_value {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .card_best_value .imagesize {
+        height: 100%;
+    }
+    
+    .cards_best_value .info2 {
+        height: 300px;
+    }
+    
+    .cards {
+        flex-direction: column;
+    }
+    
+    .card {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    
+    .card img {
+        height: 100%;
+    }
+    
+    .navbar {
+        flex-direction: column;
+    }
+    
+    .navlist {
+        flex-direction: column;
+    }
+    
+    .navlist li {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .navlist li:nth-child(4) {
+        display: none;
+    }
+    
+    .navlist input {
+        display: none;
+        
+    }
+    
+    .navlist a:hover {
+        transform: scale(1);
+    }
+    
+    .navlist a img:hover {
+        transform: scale(1);
+    }
+    .navbar .logo:hover {
+    transform: scale(1) rotate(0deg);
+    }    
+    
+    .header-content {
+        text-align: center;
+    }
+}
